@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    position: relative;
+}
+
+#landing-page {
+    font-family: 'Cormorant'; 
+    font-size: 22px;
+    position: relative;
+} 
+
+.container1 {
+    background-color: #293241;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+.flex-nav {
+    display: flex;
+    grid-row-start: 1;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+
+.flex-nav a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.title {
+    grid-row-start: 2;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    color: #98C1D9;
+    margin-top: 20px;
+}
+
+.intro {
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+    display: flex;
+    margin-top: 55px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+footer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+
