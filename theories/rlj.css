@@ -1,0 +1,74 @@
+html {
+    background-color: #124559;
+    background-repeat: no-repeat;
+    background-image: url(https://i.imgur.com/IHlxXKF.jpg);
+    background-size: 60vw;
+    background-position: center 4vw;
+}
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size:1.8vw;
+  color: #D3E6D9;
+}
+a {
+  color: #D3E6D9;
+}
+
+p{
+  position: absolute;
+  bottom: 0;  
+  margin-bottom: 0.4vw;
+}
+#row2b{
+  text-align:right;
+}
+#row2b > p{
+  font-family: 'Rozha One', serif;
+  position: relative;
+  font-size: 5vw;
+}
+#row2b > p:nth-child(1){
+  margin-top: 5vw;
+}
+#row2b > p:nth-child(2){
+  margin-top: -1vw;
+  font-size: 7.5vw;
+}
+
+#grid {
+  display: grid;
+  grid-gap: 2vw; 
+  grid-template-rows: 5vw;
+  grid-auto-rows: 9vw;
+  grid-template-columns: 1fr repeat(6, 3fr) 1fr;
+}
+
+#grid > div{
+  position: relative;
+  background-color:#124559;
+  outline-style: solid;
+  outline-color:#124559;
+  outline-width: 2vw;  /* Same as grid gap */
+}
+
+div#row1a,div#row3b,div#row4a,div#row5b{
+  background-color:rgba(64,69,78,0.4);
+}
+
+#row1a{
+  grid-column-end: span 3;
+}
+#row1b, div#row2b, div#row3b, div#row5a, div#row5c, div#row8a, div#row8b{
+  grid-column-end: span 2;
+}
+
+div#row2b{
+  grid-row-end: span 2;
+}
+
+#filler {
+  width: 100vw;
+  height: 30vw;
+  background-color:#ff0;
+  margin-left: -1vw;
+}
