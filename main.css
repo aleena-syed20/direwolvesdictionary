@@ -85,13 +85,13 @@ ul {
     background-color: #1e1e1e;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /*justify-content: center; */
 }
  
 li > a{
     color: #ff6363;
     text-decoration: none;
-    margin-right: 100px;
+    font-size: 20px;
 }
 
 #first-theory {
@@ -103,5 +103,6 @@ li > a{
     height: 80px;
     width: 100%;
 }
+
 
 
