@@ -55,6 +55,10 @@ footer {
     text-align: center;
 }
 
+ul {
+    list-style-type: none;
+}
+
 #theory-landing-page {
     font-family: 'Cormorant'; 
 }
@@ -62,11 +66,14 @@ footer {
 .container2 {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 250px 500px 100px;
+    grid-template-rows: 250px 400px 80px;
 }
 
 .theory {
-    grid-row: 2 / 3;
+    grid-row: 1 / -1;
+    grid-column: 1 / 2;
+    background-color: #0f0f0f;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,9 +81,27 @@ footer {
 
 .list {
     grid-column: 2 / -1;
+    grid-row: 1 / -1;
+    background-color: #1e1e1e;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+ 
+li > a{
+    color: #ff6363;
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+#first-theory {
+    margin-bottom: 50px;
+}
+
+#theory-page-footer {
+    bottom: 0;
+    height: 80px;
+    width: 100%;
 }
 
 
