@@ -100,7 +100,7 @@ li > a{
 
 #theory-page-footer {
     bottom: 0;
-    height: 80px;
+    /*height: 80px; */
     width: 100%;
 }
 
