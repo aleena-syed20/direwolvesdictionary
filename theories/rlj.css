@@ -1,14 +1,15 @@
 html {
     background-color: #124559;
     background-repeat: no-repeat;
-    background-image: url(https://i.imgur.com/IHlxXKF.jpg);
+    background-image: url('/jon-snow.jpg');
     background-size: 60vw;
     background-position: center 4vw;
 }
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size:1.8vw;
   color: #D3E6D9;
+  margin: 0px;
 }
 a {
   color: #D3E6D9;
@@ -69,10 +70,17 @@ div#row2b{
 }
 
 div#row7a {
-  grid-column-end: span 8;
-  grid-row-end: span 9;
-  grid-gap: 0px;
+  grid-column-end: span 6;
+  grid-row-end: span 11;
   background-color: whitesmoke;
-  grid-gap: 0vw;
   color: black;
+  padding: 10px;
+  margin-left: 20px;
 }
+
+blockquote {
+  text-align: center;
+  opacity: .7;
+  padding: .8em 1.6em;
+}
+
