@@ -2,7 +2,6 @@
 html, body { height: 100%; }
 body {
   background:radial-gradient(ellipse at center,  #0f0f0f, #1e1e1e, #1e1e1e);
-  overflow: hidden;
 }
 
 .ocean { 
@@ -49,13 +48,9 @@ body {
 }
 
 .content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   background: #015871;
   color: white;
   padding-top: 60px; 
   padding-left: 100px;
-  padding-right: 100px;
+  padding-right: 200px;
 }
