@@ -21,7 +21,7 @@ body {
 .flex-nav {
     display: flex;
     grid-row-start: 1;
-    justify-content: space-around;
+    justify-content: space-around; 
     flex-wrap: nowrap;
     margin-top: 20px;
 }
@@ -88,7 +88,7 @@ ul {
     /*justify-content: center; */
 }
  
-li > a{
+li > a {
     color: #ff6363;
     text-decoration: none;
     font-size: 20px;
@@ -102,6 +102,36 @@ li > a{
     bottom: 0;
     /*height: 80px; */
     width: 100%;
+}
+
+#about-page {
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr 500px 1fr ;
+}
+
+.container1-about {
+    font-family: 'Cormorant'; 
+    background-color: #1e1e1e;
+    grid-row-start: 1; 
+    grid-column: 1/-1;
+    height: 100%;
+    align-items: center;
+    position: sticky;
+}
+
+.flex-nav2 a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.about-content {
+    grid-row-start: 2;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    grid-column: 2 / 3;
 }
 
 
