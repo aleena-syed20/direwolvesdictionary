@@ -2,7 +2,25 @@
 html, body { height: 100%; }
 body {
   background:radial-gradient(ellipse at center,  #0f0f0f, #1e1e1e, #1e1e1e);
+  display: grid;
+  grid-template-rows: 100px 1fr;
 }
+
+.sky {
+  grid-row: 1 / 2;
+  animation-name: flash;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flash {
+    from { opacity: .5; color: white} 
+      92% { opacity: 0; color: red}
+    93% { opacity: 0.6; color: red}
+      94% { opacity: 0.2; color: white}
+      96% { opacity: 1; color: red} 
+    to { opacity: 0; }
+  }
 
 .ocean { 
   height: 100%;
