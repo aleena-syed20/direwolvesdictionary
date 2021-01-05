@@ -19,7 +19,7 @@ body {
     93% { opacity: 0.6; color: red}
       94% { opacity: 0.2; color: white}
       96% { opacity: 1; color: red} 
-    to { opacity: 0; }
+    to { opacity: .5; color: white }
   }
 
 .ocean { 
