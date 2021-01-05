@@ -49,7 +49,7 @@ body {
 }
 
 #snowflake {
-    animation: rotation 7s infinite linear;
+    animation: rotation 6s infinite linear;
 }
 
 @keyframes rotation {
