@@ -1,45 +1,40 @@
-
-html, body { height: 100%; }
 body {
-  background:radial-gradient(ellipse at center,  #0f0f0f, #1e1e1e, #1e1e1e);
-  display: grid;
-  grid-template-rows: 100px 1fr;
+  margin: 0;
 }
 
 .sky {
-  grid-row: 1 / 2;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1f1e1d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#circle1, #circle2, #circle3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #272635;
   animation-name: flash;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+  fill: url(/theories/wave.svg);
 }
 
 @keyframes flash {
-    from { opacity: .5; color: white} 
-      92% { opacity: 0; color: red}
-    93% { opacity: 0.6; color: red}
-      94% { opacity: 0.2; color: white}
-      96% { opacity: 1; color: red} 
-    to { opacity: .5; color: white }
-  }
-
-.ocean { 
-  height: 100%;
-  width:100%;
-  position: absolute;
-  margin-top: 100px;
-  background: #015871;
+  from { background-color: #272635}
+    1% { background-color: white}
+    20% { background-color: #272635}
+    53% { background-color: #69140E}
+  to { background-color: #272635}
 }
 
 .content {
-  background: #015871;
-  color: white;
-  display: grid;
-  grid-template-rows: 100px 1fr;
-  grid-template-columns: 1fr 600px 1fr ;
-  font-size: 18px;
+  display: flex;
+  width: 70%;
+  justify-content: flex-start;
 }
 
-.pftheory {
-  grid-column: 2 / 3;
-}
-/*lightning in background */
+
+
+
+
