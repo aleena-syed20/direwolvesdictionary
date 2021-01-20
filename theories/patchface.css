@@ -17,7 +17,6 @@ body {
   background-color: #272635;
   animation-name: flash;
   animation-duration: 0.5s;
-  fill: url(/theories/wave.svg);
 }
 
 @keyframes flash {
